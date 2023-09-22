@@ -56,8 +56,9 @@ class _AppLoginState extends State<AppLogin> {
                 child: const TextField(
                   decoration: InputDecoration(
                     hintText: "Email",
-                    hintStyle: TextStyle(color:Colors.white),
-                    prefixIcon: Icon(Icons.email, color:Color.fromARGB(255, 163, 26, 197)),
+                    hintStyle: TextStyle(color: Colors.white),
+                    prefixIcon: Icon(Icons.email,
+                        color: Color.fromARGB(255, 163, 26, 197)),
                   ),
                 ),
               ),
@@ -71,9 +72,18 @@ class _AppLoginState extends State<AppLogin> {
                 height: 40,
                 child: const TextField(
                   decoration: InputDecoration(
+                    contentPadding: EdgeInsets.only(top:0),
+                    enabledBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                            color: Color.fromARGB(255, 163, 26, 197))),
                     hintText: "Senha",
-                    hintStyle: TextStyle(color: Colors.white,),
-                    prefixIcon: Icon(Icons.lock, color:Color.fromARGB(255, 163, 26, 197))
+                    hintStyle: TextStyle(
+                      color: Colors.white,
+                    ),
+                    prefixIcon: Icon(Icons.lock,
+                        color: Color.fromARGB(255, 163, 26, 197)),
+                    suffixIcon: Icon(Icons.visibility,
+                        color: Color.fromARGB(255, 163, 26, 197)),
                   ),
                 ),
               ),
