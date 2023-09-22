@@ -1,16 +1,13 @@
-# trilhaapp
+# Tela de Login em Flutter 🦾
 
-A new Flutter project.
+Este é um projeto de tela de login simples desenvolvido como parte de um estudo pessoal para aprimorar suas habilidades em Flutter e Dart.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Tela de login com design atraente.
+- Interface de usuário intuitiva para entrada de dados.
+- Utiliza o poderoso framework Flutter para criar uma experiência de usuário agradável.
 
-A few resources to get you started if this is your first Flutter project:
+## Pré-requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Antes de começar, certifique-se de ter o ambiente de desenvolvimento Flutter configurado em sua máquina. Você pode seguir as [instruções de instalação do Flutter](https://flutter.dev/docs/get-started/install) para configurar o ambiente.
