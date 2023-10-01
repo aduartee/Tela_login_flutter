@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:trilhaapp/pages/home_page.dart';
 
@@ -129,7 +127,7 @@ class _AppLoginState extends State<AppLogin> {
                     child: TextButton(
                       onPressed: () {
                         if(emailController.text.trim() == 'email@email.com'){
-                          Navigator.push(
+                          Navigator.pushReplacement(
                             context, MaterialPageRoute(
                               builder: (context) => const MyPage()));
                         }else {
