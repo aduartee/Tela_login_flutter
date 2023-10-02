@@ -34,8 +34,7 @@ class MyPageState extends State<MyPage> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const DadosCadastrais(
-                            texto: "Meus dados", dados: ["Endereço", "Nome"])));
+                        builder: (context) => const DadosCadastrais()));
               },
             ),
           ]),
@@ -59,7 +58,7 @@ class MyPageState extends State<MyPage> {
                 controller.jumpToPage(value);
               },
               currentIndex: paginaAtual,
-              items: [
+              items: const [
                 BottomNavigationBarItem(
                     label: "Pagina 1", icon: Icon(Icons.home)),
                 BottomNavigationBarItem(
