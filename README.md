@@ -1,6 +1,6 @@
 # Tela de Login em Flutter 🦾
 
-Este é um projeto de tela de login simples desenvolvido como parte de um estudo pessoal para aprimorar suas habilidades em Flutter e Dart.
+Este é um projeto de tela de login simples desenvolvido como parte de um estudo pessoal para aprimorar minhas habilidades em Flutter e Dart.
 
 ## Funcionalidades
 
